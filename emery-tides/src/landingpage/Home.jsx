@@ -1,11 +1,16 @@
 // Home.jsx
 import React from 'react';
 import './Home.css'; // Assuming you have a Home.css file for styling
+import Carousel from './Carousel.jsx'; // Adjust the path to your Carousel component
 
 const Home = () => {
   return (
     <div>
       <h1>EMERY TIDES LIMITED</h1>
+
+      {/* Include the Carousel component here */}
+      <Carousel />
+
       <div id="triangle">
         <h2>Company</h2>
         <h2>Profile</h2>

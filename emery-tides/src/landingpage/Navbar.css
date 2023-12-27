@@ -1,0 +1,21 @@
+nav {
+    background-color: #686868; /* Set your desired background color */
+    padding: 10px; /* Adjust the padding as needed */
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items along the cross axis */
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Set the text color */
+    font-weight: bold;
+    padding: 8px 16px; /* Adjust the padding as needed */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+.company-title{
+    color: white;
+}
